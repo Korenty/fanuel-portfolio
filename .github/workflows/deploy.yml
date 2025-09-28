@@ -13,8 +13,8 @@ jobs:
           node-version: '18'
       - run: npm ci
       - run: npm run build:css
-      - run: echo "Building CSS with Tailwind" && npm run build:css
       - run: npm run build
+      - run: cp src/output.css build/output.css
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
