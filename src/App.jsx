@@ -196,7 +196,7 @@ const ProjectsSection = () => {
     {
       title: "Classic Chocolate Chip Recipe Page",
       description: "Semantic HTML structure with headings, lists, and image linking.",
-      link: "#",
+      link: "https://korenty.github.io/html-recipe-page-v2/recipe.html",
       stack: ["HTML5", "CSS", "Semantic Markup"],
     },
     {
