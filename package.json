@@ -14,7 +14,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "tailwind": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+    "postbuild": "npx tailwindcss -i ./src/input.css -o ./build/output.css --minify"
   },
   "browserslist": {
     "production": [
