@@ -71,7 +71,7 @@ const HeroSection = ({ setActiveSection }) => (
       <div className="lg:w-1/2 relative flex justify-center items-center">
         <div className="w-72 h-72 md:w-96 md:h-96 rounded-full overflow-hidden bg-white/5 backdrop-blur-md border-4 border-cyan-500/30 shadow-xl transform hover:scale-105 transition-all duration-500">
           <img 
-            src="profile.jpg" 
+            src="/profile.jpg" 
             alt="Fanuel Debebe Profile" 
             className="object-cover w-full h-full"
             onError={(e) => { e.target.onerror = null; e.target.src = "https://placehold.co/400x400/0077B6/FFFFFF?text=F+D" }}
