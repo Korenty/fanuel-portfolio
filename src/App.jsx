@@ -112,30 +112,7 @@ const AboutSection = () => (
           </p>
         </div>
       </div>
-    </div>
-  </section>
-);
-
-// --- Component 4: Skills Section ---
-const SkillPill = ({ icon, title, level }) => (
-  <div className="flex items-center space-x-3 p-3 bg-gray-800/60 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
-    <div className="text-cyan-400 w-6 h-6">{icon}</div>
-    <div>
-      <h4 className="font-semibold text-gray-200">{title}</h4>
-      <p className="text-sm text-gray-500">{level}</p>
-    </div>
-  </div>
-);
-
-const SkillsSection = () => (
-  <section id="skills" className="py-20 bg-gray-900 p-6">
-    <div className="max-w-7xl mx-auto">
-      <h2 className="text-4xl font-bold text-transparent bg-gradient-to-r from-cyan-300 to-blue-500 bg-clip-text text-center mb-12">Tech Arsenal</h2>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <div className="p-6 bg-gray-800/50 rounded-xl shadow-xl border-t-4 border-cyan-500/50">
-          <h3 className="text-2xl font-semibold text-cyan-300 mb-5">Cloud Engineering</h3>
-          <div className="space-y-4">
-            <SkillPill title="AWS/Azure Fundamentals" level="In-Depth Study" icon={<svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9h-9"></path></svg>} />
+    </div><SkillPill title="AWS/Azure Fundamentals" level="In-Depth Study" icon={<svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9h-9"></path></svg>} />
             <SkillPill title="Infrastructure-as-Code (IaC)" level="Terraform Concepts" icon={<svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 12h14M5 12a2 2 0 012-2h10a2 2 0 012 2m-4 4h-4m-4 0v-4"></path></svg>} />
             <SkillPill title="Networking & Security" level="VPC, IAM Principles" icon={<svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 15v2m-6-6v6m-6-6h6m-6 0h6m0 0h6m-6 0v6m-6-6h6m-6 0h6m0 0h6"></path></svg>} />
           </div>
