@@ -1,7 +1,7 @@
 {
   "name": "fanuel-portfolio",
   "version": "1.0.0",
-  "homepage": "https://<korenty>.github.io/fanuel-portfolio",
+  "homepage": "https://korenty.github.io/fanuel-portfolio",
   "private": true,
   "dependencies": {
     "react": "^18.2.0",
