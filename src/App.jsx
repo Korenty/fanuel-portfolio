@@ -98,8 +98,8 @@ const AboutSection = () => (
             Leading Bold Endeavor Trading Plc and Fleet Addis Transport Network Plc, I’ve mastered strategic planning and large-scale operations.
           </p>
           <div className="space-y-2">
-            <a href="https://gurshahub.com" target="_blank" className="block text-cyan-400 hover:text-cyan-300 transition-colors">→ Gursha Hub</a>
-            <a href="https://gurshamenu.com" target="_blank" className="block text-cyan-400 hover:text-cyan-300 transition-colors">→ Gursha Menu</a>
+            <a href="https://gurshahub.com" target="_blank" rel="noreferrer" className="block text-cyan-400 hover:text-cyan-300 transition-colors">→ Gursha Hub</a>
+            <a href="https://gurshamenu.com" target="_blank" rel="noreferrer" className="block text-cyan-400 hover:text-cyan-300 transition-colors">→ Gursha Menu</a>
           </div>
         </div>
         <div className="lg:col-span-2 p-6 bg-gray-800/70 rounded-xl shadow-2xl border-l-4 border-blue-500/50">
@@ -176,6 +176,7 @@ const ProjectCard = ({ title, description, link, stack }) => (
     <a 
       href={link} 
       target="_blank" 
+      rel="noreferrer"
       className="text-cyan-400 hover:text-cyan-300 font-semibold mt-auto flex items-center transition-colors"
     >
       View Deployment
@@ -195,7 +196,7 @@ const ProjectsSection = () => {
     {
       title: "Classic Chocolate Chip Recipe Page",
       description: "Semantic HTML structure with headings, lists, and image linking.",
-      link: "#",
+      link: "https://korenty.github.io/html-recipe-page-v2/recipe.html",
       stack: ["HTML5", "CSS", "Semantic Markup"],
     },
     {
@@ -235,6 +236,7 @@ const ContactSection = () => (
         <a 
           href="https://www.linkedin.com/in/fanuel-seyoum-867382138" 
           target="_blank" 
+          rel="noreferrer"
           className="px-6 py-3 bg-cyan-500/80 text-white font-semibold rounded-xl hover:bg-cyan-600 transition-all"
         >
           LinkedIn
@@ -242,12 +244,15 @@ const ContactSection = () => (
         <a 
           href="https://x.com/fanuel_debebe?s=09" 
           target="_blank" 
+          rel="noreferrer"
           className="px-6 py-3 bg-gray-700/80 text-white font-semibold rounded-xl hover:bg-gray-600 transition-all"
         >
           X (Twitter)
         </a>
         <a 
           href="mailto:fanuel@example.com" 
+          target="_blank" 
+          rel="noreferrer"
           className="px-6 py-3 bg-green-600/80 text-white font-semibold rounded-xl hover:bg-green-700 transition-all"
         >
           Email Me
